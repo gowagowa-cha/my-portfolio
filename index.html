@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gashun Chagdonov - FrontEnd Developer</title>
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <section class="intro" id="intro">
+        <div class="intro__text">
+          <p>Hi, i am Gashun</p>
+          <p>Frontend-developer</p>
+          <a class="intro__btn btn btn-primary btn-lg" href="#about">Обо мне</a>
+          <a class="intro__btn btn btn-primary btn-lg" href="#portfolio">Портфолио</a>
+        </div>
+      </section>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="nav">
+          <div class="container">
+            <a class="main-link" href="#intro">Гашун Чагдонов</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav">
+                <li>
+                  <a href="#about">Обо мне</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Портфолио</a>
+                </li>
+                <li>
+                  <a href="#skills">Мои навыки</a>
+                </li>
+                <li>
+                  <a href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="about" id="about">
+        <div class="about__title">
+          <p>Обо мне</p>
+          <hr />
+        </div>
+        <div class="about__image">
+          <img class="myphoto" src="images/iphoto2.jpeg" alt="" />
+        </div>
+        <div class="about__content">
+          <div class="about-me">
+            Привет я Чагдонов Гашун, мне 31 год и я frontend-разработчик, с опытом разработки
+            веб-приложений с использованием React. Уделяю большое внимание грамотному использованию
+            JS, а также знаком с современным синтаксисом ES6+.
+            <br />
+            Мои навыки JavaScript, React, HTML5, CSS3(SCSS, Sass), Bootstrap, Figma, GULP
+            <br />
+            Проекты можно посмотреть на GitHub.<br />
+            <br />
+            Я целеустремленный, коммуникабельный, ответственный.<br />
+            Хочу и дальше развиваться в Frontend, стать профи своего дела.
+          </div>
+          <div class="my-experience">
+            <h4 class="my-experience__heading">Опыт работы:</h4>
+            <div class="my-experience__content">
+              <div class="my-experience__duration">
+                Ноябрь 2020 — Февраль 2021
+                <p class="months">4 месяца</p>
+              </div>
+              <div class="my-experience__info">
+                <p class="company">Elbrus Bootcamp</p>
+                <p class="position">Frontend-разработчик</p>
+                Проходил обучение на Frontend-разработчика, изучал JavaScript и React. Так же
+                участвовал в групповых проектах, опыт командной работе в Git.
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="download-resume btn btn-primary" href="fIles/gowa%20gowa%20a.a..pdf" download
+          >Скачать резюме</a
+        >
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills__title">
+          <p>Мои навыки</p>
+          <hr />
+        </div>
+        <div class="skills__content">
+          <div class="skills__content-item item-1">
+            <img src="images/htmlicon.png" alt="" />
+            <p>HTML5</p>
+          </div>
+          <div class="skills__content-item item-2">
+            <img src="images/cssicon.png" alt="" />
+            <p>CSS3</p>
+          </div>
+          <div class="skills__content-item item-3">
+            <img src="images/bootsrapicon.png" alt="" />
+            <p>Bootstrap</p>
+          </div>
+          <div class="skills__content-item item-4">
+            <img src="images/jsicon.png" alt="" />
+            <p>JS</p>
+          </div>
+          <div class="skills__content-item item-5">
+            <img src="images/reacticon.png" alt="" />
+            <p>React</p>
+          </div>
+          <div class="skills__content-item item-6">
+            <img src="images/githubicon.png" alt="" />
+            <p>GitHub</p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio__title">
+          <p>Портфолио</p>
+          <hr />
+        </div>
+        <div class="portfolio__content">
+          <button data-toggle="modal" data-target="#exampleModal-1">
+            <div class="portfolio__content-item item-1">
+              <p>Surf</p>
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </button>
+          <button data-toggle="modal" data-target="#exampleModal-2">
+            <div class="portfolio__content-item item-2">
+              <p>Tesla</p>
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </button>
+          <button data-toggle="modal" data-target="#exampleModal-3">
+            <div class="portfolio__content-item item-3">
+              <p>MarketPlace</p>
+              <i class="fa fa-search"></i>
+            </div>
+          </button>
+          <div
+            class="modal fade"
+            id="exampleModal-1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Одностраничный сайт Surf</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="modal-image" src="images/iso/surf.png" alt="" />
+                  <img class="modal-image" src="images/iso/surf2.png" alt="" />
+                  <img class="modal-image" src="images/iso/surf3.png" alt="" />
+                  <img class="modal-image" src="images/iso/surf4.png" alt="" />
+                  <img class="modal-image" src="images/iso/surf5.png" alt="" />
+                  <img class="modal-image" src="images/iso/surf6.png" alt="" />
+                  <img class="modal-image" src="images/iso/surf7.png" alt="" />
+                </div>
+                <div class="modal-footer">
+                  <a target="_blank" href="https://gowagowa-cha.github.io/surf/app/"
+                    >Ссылка на Surf</a
+                  >
+                  <a target="_blank" href="https://github.com/gowagowa-cha">Ссылка на GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="exampleModal-2"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">Одностраничный сайт Tesla</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="modal-image" src="images/iso/tes.png" alt="" />
+                  <img class="modal-image" src="images/iso/tes2.png" alt="" />
+                  <img class="modal-image" src="images/iso/tes3.png" alt="" />
+                  <img class="modal-image" src="images/iso/tes4.png" alt="" />
+                </div>
+                <div class="modal-footer">
+                  <a target="_blank" href="https://gowagowa-cha.github.io/tesla/app"
+                    >Ссылка на Tesla</a
+                  >
+                  <a target="_blank" href="https://github.com/gowagowa-cha">Ссылка на GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            id="exampleModal-3"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel3">
+                    HTML/CSS/JS. Макет интернет магазина
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Адаптивная верстка по макету.</p>
+                  <img style="width: 60%" class="modal-image" src="images/hh/index.png" alt="" />
+                  <img class="modal-image" src="images/hh/one-product.png" alt="" />
+                  <img class="modal-image" src="images/hh/one-product2.png" alt="" />
+                  <img class="modal-image" src="images/hh/3.png" alt="" />
+                  <img class="modal-image" src="images/hh/4.png" alt="" />
+                </div>
+                <div class="modal-footer">
+                  <a href="https://gowagowa-cha.github.io/moderno-2/app/" target="_blank"
+                    >Ссылка на проект</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts__title">
+          <p>Cпособы связи и мои соцсети</p>
+          <hr />
+        </div>
+        <div class="contacts__info">
+          <div class="contacts__info-item col-md-4">
+            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+            <p>
+              МО, <br />
+              г.Люберцы Вертолетная 14
+            </p>
+          </div>
+          <div class="contacts__info-item col-md-4">
+            <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+            <p>gashun.chagdonov@mail.ru</p>
+          </div>
+          <div class="contacts__info-item col-md-4">
+            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+            <p>+7(925)825-77-54</p>
+          </div>
+        </div>
+        <div class="contacts__social">
+          <ul>
+            <li>
+              <a class="contacts__social-item" href="https://vk.com/gowa_gowa" target="_blank">
+                <i class="fa fa-vk" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="contacts__social-item" href="https://t.me/gowa_gowa" target="_blank">
+                <i class="fa fa-telegram" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="contacts__social-item"
+                href="https://github.com/gowagowa-cha"
+                target="_blank"
+              >
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="contacts__social-item"
+                href="https://www.instagram.com/gowa_gowa"
+                target="_blank"
+              >
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <script src="https://use.fontawesome.com/72004ab5bb.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
